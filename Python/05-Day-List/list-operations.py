@@ -105,4 +105,47 @@ car_brand = ['BMW','TATA','TOYOTA','AUDI']
 del car_brand[-1]
 print(car_brand)
 
+del car_brand[1]
+print(car_brand)
 
+#clear function 
+car_brand =  ['BMW','TATA','TOYOTA','AUDI']
+car_brand.clear()  # removes all elements from list []
+print(car_brand)
+
+#copying a list
+car_brand =  ['BMW','TATA','TOYOTA','AUDI']
+car_brand_copy = car_brand.copy()
+print(car_brand_copy)
+
+# join 
+num1 = [1,2,3,4]
+num2 = [-1,-2,-3,-4]
+num1.extend(num2)
+print('After Joining Numbers:',num1)
+
+#count
+car_brand =  ['BMW','TATA','TOYOTA','AUDI']
+print(car_brand.count('BMW'))  #1
+
+ages =[12,23,23,45,46,87]
+print(ages.count(23))
+
+#index 
+car_brand= ['BMW','TATA','TOYOTA','AUDI']
+print(car_brand.index('BMW')) #index = 0
+
+ages =[12,22,23,45,46,87]
+print(ages.index(45)) #index  = 3
+
+#Reverse 
+car_brand =  ['BMW','TATA','TOYOTA','AUDI']
+car_brand.reverse()
+print(car_brand)
+
+ages =[12,45,67,54,23,45,46,87] 
+ages.sort()
+print(ages)    #[12, 23, 45, 45, 46, 54, 67, 87]
+
+ages.sort(reverse=True) 
+print(ages)   # [87, 67, 54, 46, 45, 45, 23, 12]
