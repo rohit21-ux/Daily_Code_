@@ -149,3 +149,4 @@ print(ages)    #[12, 23, 45, 45, 46, 54, 67, 87]
 
 ages.sort(reverse=True) 
 print(ages)   # [87, 67, 54, 46, 45, 45, 23, 12]
+
