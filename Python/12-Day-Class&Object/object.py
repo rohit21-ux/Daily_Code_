@@ -1,6 +1,6 @@
-'''object is the instance for a class.we can create a object by calling class .'''
+#object is the instance for a class.we can create a object by calling class .
 
-''' object methods - Objects can have methods .The methods are functions which belongs to the object .'''
+# object methods - Objects can have methods .The methods are functions which belongs to the object .
 
 #example:
 class Person:

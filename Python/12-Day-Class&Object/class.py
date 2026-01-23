@@ -1,6 +1,6 @@
-'''Class is like a blueprint for creating a object.The class defines attributes and the behaviour of objects'''
+#Class is like a blueprint for creating a object.The class defines attributes and the behaviour of objects.
 
-'''To create a class we need the keyword class followed by the name and colon.Class name shuld be CamelCase.'''
+#To create a class we need the keyword class followed by the name and colon.Class name shuld be CamelCase.
 
 #Example
 class Person:
@@ -11,7 +11,7 @@ print(Person)
 p = Person()
 print(p)
 
-'''CLASS CONSTRUCTOR - a class without a constructor is not really useful in real application.we have to use constructor to make our class more useful. python has inbuilt constructor function "init()" constructor function. The init() has "self" parameter which is reference to the current instance of the class'''
+#'''CLASS CONSTRUCTOR - a class without a constructor is not really useful in real application.we have to use constructor to make our class more useful. python has inbuilt constructor function "init()" constructor function. The init() has "self" parameter which is reference to the current instance of the class'''
 
 #Example:
 class Employee:
