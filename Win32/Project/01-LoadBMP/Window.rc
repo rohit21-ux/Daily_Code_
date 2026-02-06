@@ -1,0 +1,6 @@
+#include "Window.h"
+
+RRJ_ICON ICON Icon.ico 
+
+RRJ_MYBITMAP BITMAP "MyBitmap.bmp"
+
