@@ -18,5 +18,4 @@ print(issubclass(Flute,Art)) # True - because of inheritance
 print(issubclass(Running,Art)) #False
 
 
-#used mostly in frameworks , validations , plugin system etc
 
