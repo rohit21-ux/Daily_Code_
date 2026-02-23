@@ -4,7 +4,7 @@
 # syntax of list comprehension : [expression for item in iterable]
 
 
-# Example 1: Create a list of squares of numbers from 0 to 9
+# Example 1: Create a list of squares of numbers from 0 to 9 
 
 sqaures = [i * i for i in range(0,10)]
 print(sqaures)
@@ -23,5 +23,5 @@ def add(x,y):
 add = lambda x,y : x + y
 print(add(5,10))
 
-# Syntax : lambda arguments: expression
+# Syntax : lambda arguments: expression 
 
