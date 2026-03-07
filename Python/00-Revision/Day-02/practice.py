@@ -34,3 +34,13 @@ print(id(num))
 print(num.append(33))
 print(num)
 
+print(type(num))
+
+tuple1 = tuple(num)
+print(id(tuple1))
+print(type(tuple1))
+print(tuple1)
+
+
+
+
