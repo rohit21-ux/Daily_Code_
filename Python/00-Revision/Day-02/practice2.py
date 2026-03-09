@@ -51,6 +51,11 @@ print(num5[0])   # Smallest number /  element
 
 
 
+num5.sort(reverse= True)
+print(num5)
+
+
+
 
 
 
