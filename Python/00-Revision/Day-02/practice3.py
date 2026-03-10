@@ -10,3 +10,6 @@ print(car_brand)
 
 del car_brand[1]
 print(car_brand)
+
+
+
