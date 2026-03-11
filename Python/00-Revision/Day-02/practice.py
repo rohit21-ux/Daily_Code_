@@ -42,5 +42,22 @@ print(type(tuple1))
 print(tuple1)
 
 
+# Joining two lists 
+num1 = [1,2,3,4]
+num2 = [-1,-2,-3,-4]
+num1.extend(num2)
+print('After Joining Numbers:',num1)
+
+# finding largest and smallest from the joined lits  using sort method cause its easy
+print('--Using sorting method---') 
+num1.sort()
+print(num1)
+print("Largest number",num1[-1])
+
+print("Smallest number:",num1[0])
+
+print("--Using max() and min()---")
+print("Largest:",max(num1))
+print("Smallest:",min(num1))
 
 
