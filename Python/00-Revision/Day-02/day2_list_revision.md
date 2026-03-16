@@ -16,3 +16,5 @@
 
 ## Practice
 Did dry run problems manually on paper.
+Did problems like finding largest and smallest number from list using sorting method and other logic .
+
